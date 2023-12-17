@@ -22,7 +22,7 @@ Instrucciones de instalación del proyecto.
 ```
 2. Instala las dependencias del archivo requeriments.txt
 ```bash
-  pip install -r requeriments.txt
+  pip install -r requirements.txt
 ```
 3. Corre el servicio
 ```bash
