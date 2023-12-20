@@ -27,7 +27,7 @@ def image():
     if image is None:
         return jsonify({'error': 'No se pudo decodificar la imagen'})
 
-    result = DeepFace.analyze(image, actions=['emotion'])
+    result = DeepFace.analyze(image, actions=['emotion'], enforce_detection=False)
     dominantEmotion = result[0]['dominant_emotion']
     emotions = result[0]['emotion']
 
